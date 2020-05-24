@@ -212,7 +212,7 @@ result
 corrPlot <- cor(trainData[, -length(names(trainData))])
 corrplot(corrPlot, method="color")
 ```
-![plot1](figure/plot1.PNG)
+![alt text](https://github.com/La7lou7/Coursera-Practical-Machine-Learning-Project/blob/master/plot1.PNG)
 
 2. Decision Tree Visualization
 
@@ -220,5 +220,5 @@ corrplot(corrPlot, method="color")
 treeModel <- rpart(classe ~ ., data=trainData, method="class")
 prp(treeModel) # fast plot
 ```
-![plot2](figure/plot2.PNG)
+![alt text](https://github.com/La7lou7/Coursera-Practical-Machine-Learning-Project/blob/master/plot2.PNG)
 
